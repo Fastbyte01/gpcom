@@ -38,9 +38,9 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Giuseppep',
+    subtitle: 'Different thinker',
+    description: 'Il sito personale di Giuseppe Pignataro',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -51,7 +51,7 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
+            text: 'Progetti',
             href: '/projects'
         },
         {
@@ -59,7 +59,7 @@ const siteConfig: SiteConfig = {
             href: '/blog'
         },
         {
-            text: 'Tags',
+            text: 'Tag',
             href: '/tags'
         }
     ],
@@ -69,16 +69,12 @@ const siteConfig: SiteConfig = {
             href: '/about'
         },
         {
-            text: 'Contact',
+            text: 'Contatti',
             href: '/contact'
         },
         {
-            text: 'Terms',
+            text: 'Termini',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
@@ -96,15 +92,15 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Ciao e benvenuto nel mio angolo di web!',
+        text: "Ciao sono **Giuseppe Pignataro**,ti do il benvenuto nel mio angolo di web, dove condivido i miei progetti e le mie passioni. Attraverso esperienze sia personali che professionali, desidero ispirare e coinvolgere persone diverse, offrendo un luogo accogliente in cui esplorare idee, percorsi e progetti che mi stanno a cuore. La mia missione è quella di creare connessioni autentiche e stimolare il dialogo su temi che mi appassionano profondamente.",
         image: {
             src: '/hero.jpeg',
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
             {
-                text: 'Get in Touch',
+                text: 'Rimani in contatto',
                 href: '/contact'
             }
         ]
