@@ -2,7 +2,7 @@
 title: Rimani in contatto
 seo:
   title: Contatti
-  description: Get in touch through email or social media! Let me know how I can help.
+  description: Rimani in contatto con Giuseppe Pignataro!.
 ---
 
 Grazie per avermi contattato! Se hai una domanda, un suggerimento o semplicemente vuoi condividere i tuoi pensieri, sono tutto orecchi. Non esitare a metterti in contatto con me attraverso uno dei metodi indicati di seguito:
