@@ -14,11 +14,11 @@ const tags = getAllTags(posts).sort((tagA, tagB) => {
 ---
 
 <BaseLayout
-    title="Tags"
-    description="Explore tag directory for easy navigation and discovery. Find a wide range of topics, articles, and insights organized by tags, making it effortless to locate the content that interests you most."
+    title="Tag"
+    description="Esplora la directory dei tag per una navigazione e una scoperta più semplici. Trova un'ampia gamma di argomenti, articoli e approfondimenti organizzati per tag, in modo da individuare facilmente i contenuti di maggiore interesse."
     showHeader={false}
 >
-    <h1 class="mb-12 text-2xl font-serif italic sm:mb-16 sm:text-4xl">All Tags</h1>
+    <h1 class="mb-12 text-2xl font-serif italic sm:mb-16 sm:text-4xl">Tutti i Tag</h1>
     {
         tags.map((tag) => {
             const postCount = getPostsByTag(posts, tag.slug).length;
